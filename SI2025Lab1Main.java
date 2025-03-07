@@ -37,6 +37,11 @@ class Task {
         return category;
     }
 
+    public void delete(String name)
+    {
+
+    }
+
     @Override
     public String toString() {
         return name + " [" + category + "] - Priority: " + priority + (isCompleted ? " [Completed]" : " [Pending]");
@@ -65,6 +70,9 @@ class TaskManager {
     // 1. Remove a task by name
     public void removeTask(String name) {
         // TODO: Implement removal logic
+
+        tasks.delete(name);
+
     }
 
     // 2. Find all completed tasks
