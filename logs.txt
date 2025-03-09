@@ -1,0 +1,15 @@
+*   58e1c59 Merge branch '8-mark-a-task-as-completed-by-name'
+|\  
+| * 99d3e5f Impl MarkTaskAsCompleted
+* |   eea76e7 Merge pull request #11 from MarkoZid/4-sort-tasks-by-priority
+|\ \  
+| * | 5becf39 Implement sortTaskByPriority
+| |/  
+* |   afbfa18 Merge pull request #10 from MarkoZid/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 799d14b Implement removeTaskByName method
+|/  
+* 38f1637 Add starter code
+* f454ae2 Initial commit
