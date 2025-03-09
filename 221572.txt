@@ -78,6 +78,13 @@ $ git merge 8-mark-a-task-as-completed-by-name
 fatal: You have not concluded your merge (MERGE_HEAD exists).
 Please, commit your changes before you merge.
 
+!!
+vo prvite dva pull requests nemase konflikti
+
+vo ovoj go iskluciv git bash vo momentot koga pisuvav porkata za merge-ot i poradi toa HEAD.lock i master.lock trebase da gi izbrisam racno
+
+!!
+
 marko@MarkoZid MINGW64 ~/OneDrive/Desktop/domasna_se/SI_2025_lab1_221572 (master|MERGING)
 $ git status
 On branch master
@@ -110,5 +117,19 @@ To https://github.com/MarkoZid/SI_2025_lab1_221572.git
    eea76e7..58e1c59  master -> master
 
 $ git log --oneline --graph --all > logs.txt
+
+
+__
+
+3. 
+
+$ git clone https://github.com/MarkoZid/SI_2025_lab1_151020.git
+Cloning into 'SI_2025_lab1_151020'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 26 (delta 7), reused 20 (delta 4), pack-reused 0 (from 0)
+Receiving objects: 100% (26/26), 5.56 KiB | 5.56 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
 
 
