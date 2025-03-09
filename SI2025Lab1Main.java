@@ -89,6 +89,11 @@ class TaskManager {
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
         // TODO: Implement sorting by priority logic
+
+
+        tasks.sortTasksByPriority();
+
+
     }
 
     // 5. Filter tasks by category
